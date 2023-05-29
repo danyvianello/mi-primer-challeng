@@ -1,0 +1,140 @@
+*{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    }
+body{
+   width: 90%;
+   background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    /*background-size: 100%*/
+}
+ main{
+    background: none;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+ }
+
+ .TextArea{
+    background: none;
+    width: 924px;
+    height: 283px;
+    padding-top: 45px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 24px;
+    color:beige;
+    text-shadow: 3px -1px #8b8b8b;
+    margin-top: 80px;
+    text-transform: lowercase;
+    box-shadow:10px -10px 30px 5px #e4e4ba;
+    resize: none;
+    text-shadow: 1px -1px darkorange;
+
+ }
+    
+    ::placeholder{color:beige;}
+    .TextArea:focus {
+        outline: none;
+    }
+
+    .resuelto{
+    background: none;
+    background-image: url(Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 311px;
+    height: 344px;
+    border: none;
+    border-radius: 24px;
+    color: beige;
+    margin-left: 98px;
+    margin-top: px;
+    padding-top: 45px;
+    padding-left: 20px;
+    position: static;
+    box-shadow:10px -10px 30px 5px #e4e4ba;
+    resize: none;
+    
+}
+.resuelto:focus{
+    outline: none;
+}
+ .botones{
+    display: flex;
+    margin-top: 18px;
+ }
+
+ .bot_encriptar{
+    background: none;
+    border: 1px solid beige;
+    border-radius: 24px;
+    box-shadow:10px -10px 30px 5px #c7c799;
+    color: white;
+    cursor: pointer;
+    margin-left: 60px;
+    height: 67px;
+    width: 328px;
+    text-shadow: 1px -1px darkorange;
+ }
+ .bot_encriptar:hover{transform: scale(1.2);}
+
+
+ .bot_desencriptar{
+    background:none;
+    border: 1px solid beige;
+    border-radius: 24px;
+    color: beige;
+    box-shadow:10px -10px 30px 5px #c7c799;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 100px;
+    width: 328px;
+    text-shadow: 1px -1px darkorange;
+ }
+ .bot_desencriptar:hover{transform:  scale(1.2); }
+ 
+ .Copiar{
+    background: none;
+    border: 1px solid beige;
+    border-radius: 24px;
+    box-shadow:10px -8px 25px 5px #e4e4ba;
+    color: beige;
+    height: 67px;
+    margin-left: 98px;
+    margin-top: 5px;
+    position: static;
+    width: 336px;
+    cursor: pointer;
+    text-shadow: 1px -1px darkorange;
+}
+
+    .Copiar:hover{
+    transform: scale(1.2) 
+ }
+ .Informacion{
+    color: red;
+    text-shadow: 1px -1px #e4e4ba;
+    font-size: 18px;
+    margin: 5px;
+ }
+
+
+.Pie{
+    margin: 5px;
+    padding: 0%;    
+    color: beige;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px -3px black;
+    background: none
+  
+}
+@media screen (max-width 400px) {
+   
+   .TextArea,.bot_encriptar,.bot_desencriptar,.Copiar,.resuelto,.Pie{width: auto; position:static}
+}

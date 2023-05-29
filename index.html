@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+    <html lang="es">
+    <META charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <title>mensajeria secreta</title>
+    <link rel="stylesheet"  href="style.css"/>
+  
+    
+</head>
+<body>
+    
+ <header>
+    <img src="logo.png" alt="logo alura" class="logo">
+
+ </header>
+  <main>
+    <section id="seccion1">
+        <textarea class="TextArea" cols="30" rows="10" placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>
+            <div>
+                <h6 class="Informacion"><img src="Vector.png"> Solo letras minúsculas y sin acentos</h6>
+
+            </div>
+            <div class="botones">
+                <button class="bot_encriptar" onclick="botEncriptar()">encriptar </button>
+                <button class="bot_desencriptar" onclick="botDesencriptar()">desencriptar </button></div> 
+    </section>
+    <section id="seccion2">
+        <textarea id="encriptado" class="resuelto"  cols="20" rows="10"></textarea>
+        <div> 
+            <button  class="Copiar" onclick="copiarAlPortapapeles()">copiar</button>
+        </div>
+    </section>
+  </main>
+    <script src="script.js"></script>
+  <footer>
+    <div class="Pie">
+        <p> © Marcos Daniel Vianello</p>
+    </div>
+
+  </footer>
+</body>
+</html>

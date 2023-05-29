@@ -1,0 +1,33 @@
+*{
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    /*background-size: 100%*/
+    width: auto;
+}
+.logo{
+    margin-left: 8px;
+    padding: 5px;
+    box-shadow: 2px -3px 5px 2px ghostwhite;
+    border-radius: 10px;
+}
+main{
+    display: flex;
+}
+#seccion1{
+    display:flex;
+    background: none;
+    width: 70%;
+    margin-left: 8px;
+    box-shadow: 2px -3px 5px 2px ghostwhite;
+}
+
+#section2{
+    display: flex;
+    background: none;
+    
+}
